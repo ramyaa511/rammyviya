@@ -1,0 +1,84 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial,sans-serif;
+}
+
+body{
+  background:linear-gradient(135deg,#ffecd2,#fcb69f);
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+}
+
+.container{
+  background:white;
+  width:100%;
+  max-width:800px;
+  padding:30px;
+  border-radius:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.2);
+  text-align:center;
+}
+
+h1{
+  color:#ff5e57;
+  margin-bottom:10px;
+}
+
+p{
+  color:gray;
+  margin-bottom:20px;
+}
+
+.search-box{
+  display:flex;
+  gap:10px;
+  margin-bottom:20px;
+}
+
+input{
+  flex:1;
+  padding:12px;
+  border:2px solid #ddd;
+  border-radius:10px;
+  font-size:16px;
+}
+
+button{
+  padding:12px 20px;
+  border:none;
+  background:#ff5e57;
+  color:white;
+  border-radius:10px;
+  cursor:pointer;
+  font-size:16px;
+}
+
+button:hover{
+  background:#e74c3c;
+}
+
+img{
+  width:250px;
+  border-radius:15px;
+  margin:20px 0;
+}
+
+.recipe{
+  text-align:left;
+  margin-top:20px;
+}
+
+.recipe h2{
+  color:#333;
+  margin-bottom:10px;
+}
+
+.recipe p{
+  color:#444;
+  line-height:1.6;
+}
